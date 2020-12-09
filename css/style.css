@@ -14,8 +14,11 @@ body {
 }
 
 #jumbocontainer {
-    margin: 2.5% auto;
-    width: 80%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-right: 3%;
+    margin-left: 3%;
+    
 }
 
 #contentsection {
@@ -37,7 +40,7 @@ nav {
 }
 .navposition {
     width: 100%;
-    position:relative;
+    position: relative;
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -148,13 +151,13 @@ nav {
     }
 }
 
-.yo {
+/*.yo {
     margin-top: 8vh;
-}
+}*/
 
 .imagealignment {
     display: inline-block;
-    margin-right: 8%;
+    margin-right: 5%;
     margin-left: 5%;
     float: left;
     width: 40%;
@@ -163,8 +166,25 @@ nav {
 
 .paragraphalignment {
     display: inline-block;
-    width: 40%;
+    font-size: 14px;
     text-align: left;
+}
+
+.projecttextalignment {
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    float: left;
+    margin-right: 8%;
+    margin-left: 5%;
+}
+
+.projectimage {
+    display: inline-block;
+    border-style: outset;
+    border-color:#14335b;
+    border-width: 4px;
+    padding: 0px;
 }
 
 .indent {
