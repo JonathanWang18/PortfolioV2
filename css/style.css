@@ -152,7 +152,7 @@ nav {
     }
 }
 
-/*.yo {
+/*.test {
     margin-top: 8vh;
 }*/
 
@@ -175,14 +175,14 @@ nav {
     text-align: left;
     font-size: 20px;
     float: left;
+    margin-bottom: 5%;
+    padding-bottom:5% ;
     
 }
 
 .projectimage {
     display: inline-block;
-    border-style: outset;
-    border-color:#14335b;
-    border-width: 4px;
+    height: 450px;
    
 }
 .center {
@@ -191,3 +191,11 @@ nav {
 .indent {
     text-indent: 45px;
 }
+
+.inline {
+    display: inline-block;
+}
+
+hr.divide{
+    border-top: 3px solid rgb(167, 164, 164);
+  }
