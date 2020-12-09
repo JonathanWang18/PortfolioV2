@@ -112,6 +112,7 @@ nav {
     }
     .nav-links {
         position: absolute;
+        z-index:1 ;
         right:0px;
         height: 92vh;
         top: 8vh;
@@ -160,8 +161,7 @@ nav {
     margin-right: 5%;
     margin-left: 5%;
     float: left;
-    width: 40%;
-    height: 50%;
+    width: 30%;
 }
 
 .paragraphalignment {
@@ -175,8 +175,7 @@ nav {
     text-align: left;
     font-size: 20px;
     float: left;
-    margin-right: 8%;
-    margin-left: 5%;
+    
 }
 
 .projectimage {
@@ -184,9 +183,11 @@ nav {
     border-style: outset;
     border-color:#14335b;
     border-width: 4px;
-    padding: 0px;
+   
 }
-
+.center {
+    text-align: center;
+}
 .indent {
     text-indent: 45px;
 }
