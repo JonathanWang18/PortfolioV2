@@ -162,6 +162,9 @@ nav {
     margin-left: 5%;
     float: left;
     width: 30%;
+    border-style: outset;
+    border-color:#11095a;
+    border-width: 4px;
 }
 
 .paragraphalignment {
