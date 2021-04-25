@@ -60,7 +60,7 @@ nav {
 
 .nav-links {
     display:flex;
-    width: 40%;
+    width: 50%;
     list-style-type: none;
     color: black;
 
@@ -167,6 +167,28 @@ nav {
     border-width: 4px;
 }
 
+.centerimage {
+    width: 40%;
+    border-style: outset;
+    border-color:#11095a;
+    border-width: 4px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.captionfontsize {
+    font-size: 12px;
+    text-align: center;
+    
+}
+.workformat {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .paragraphalignment {
     display: inline-block;
     font-size: 14px;
@@ -202,3 +224,4 @@ nav {
 hr.divide{
     border-top: 3px solid rgb(167, 164, 164);
   }
+
